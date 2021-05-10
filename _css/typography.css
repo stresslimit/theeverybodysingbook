@@ -8,7 +8,7 @@ body {
 	background-color: white;
 	background: url(/assets/images/bg-page.jpg);
   color: var(--text-color);
-	line-height: 1.4;
+	line-height: 1.5;
 }
 body, input, button, textarea, pre {
 	font-family: 'lato', sans-serif;
@@ -20,6 +20,10 @@ p {
 }
 a {
 	color: var(--text-color);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 a.img-link {
   text-decoration: none;
@@ -30,6 +34,9 @@ b, strong {
 }
 i, em {
 	font-style: italic;
+}
+img {
+	max-width: 100%;
 }
 
 

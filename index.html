@@ -5,3 +5,31 @@ title: 'Everybody Sing!'
 
 
 <p><img src="{{ 'images/the-everybody-sing-book.jpg' | asset_url }}"></p>
+
+<br>
+<br>
+<p id="songs"><img style="max-width:200px" src="{{ 'images/songs.png' | asset_url }}"></p>
+
+
+<div class="row valign-top">
+  <div class="two-thirds">
+
+{% include menu.html context='/' %}
+
+  </div>
+  <div class="third">
+    <div>Help Build:</div>
+    <p><img style="width:100%" src="{{ 'images/title-everybody-sing-book.png' | asset_url }}"></p>
+
+    <form name="submit-to-google-sheet">
+      <input name="name" type="text" placeholder="Your Name" />
+      <input name="email" type="email" placeholder="Email" required />
+      <input name="song" type="text" placeholder="Your Song" />
+      <button type="submit" name='submitbutton'>Suggest it!</button>
+    </form>
+
+  </div>
+</div>
+
+
+<br>
