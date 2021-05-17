@@ -4,11 +4,11 @@
 {% include head.html %}
 
 <body>
-  <div class="container">
+  <div class="container" style="max-width:1200px;">
 
     <h1 class="page-title">{{ page.title }}</h1>
 
-<pre style="columns: 300px 2;">
+<pre style="columns: 300px {% if page.cols %}{{ page.cols }}{% else %}2{% endif %};">
 {{ content }}
 </pre>
 
