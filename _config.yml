@@ -1,4 +1,17 @@
-# Build settings
+---
+title: The Everybody Sing Book
+timezone: America/New_York
+collections:
+  pages:
+    title: Songs
+    output: true
+    permalink: "/:path"
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: song
 include: [
   _pages
 ]
@@ -20,4 +33,4 @@ exclude: [
   vendor/ruby/,
   yarn.lock
 ]
-permalink: /:title/
+permalink: pretty

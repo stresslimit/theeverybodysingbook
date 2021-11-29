@@ -4,9 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "bundle exec jekyll serve --livereload",
-    "dev-webpack": "yarn copy-assets && webpack --watch",
-    "copy-assets": "rsync _assets/ assets/ --exclude=.DS_Store -av --delete",
-    "dist": "export NODE_ENV=production; yarn copy-assets && webpack && bundle exec jekyll build",
+    "dev-webpack": "webpack --watch",
+    "dist": "export NODE_ENV=production; webpack && bundle exec jekyll build",
     "deploy": "yarn dist && firebase deploy"
   },
   "author": "@stresslimit",
