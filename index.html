@@ -14,7 +14,9 @@ title: 'Everybody Sing!'
 <div class="row valign-top">
   <div class="two-thirds">
 
-{% include menu.html context='/' %}
+    {% for song in site.pages %}
+      <div><a href="{{ song.url }}">{{ song.title }}</a></div>
+    {% endfor %}
 
   </div>
   <div class="third">

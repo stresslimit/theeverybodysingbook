@@ -8,9 +8,13 @@
 
     <h1 class="page-title">{{ page.title }}</h1>
 
-<pre style="columns: 300px {% if page.cols %}{{ page.cols }}{% else %}2{% endif %};">
+
+
+      <pre class="songbody{% if page.cols %} col-{{ page.cols }}{% endif %}">
 {{ content }}
-</pre>
+      </pre>
+
+
 
   {% include footer.html %}
 

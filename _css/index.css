@@ -1,5 +1,21 @@
 @import '_var.css';
 @import 'reset.css';
 @import 'color.css';
+@import "font-murcurry.css";
 @import 'typography.css';
 @import 'css-layout/index.css';
+
+
+@custom-media --viewport-sheetmusic screen and (min-width: 960px);
+
+
+@media (--viewport-sheetmusic) {
+
+  .songbody {
+    columns: 2;
+  }
+  .songbody.col-3 {
+    column: 3;
+  }
+
+}

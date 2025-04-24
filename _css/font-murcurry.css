@@ -1,0 +1,36 @@
+
+/* regular */
+@font-face {
+  font-family: 'Murcurry';
+  src: url('/assets/fonts/Murcurry/murcurry-g4-Regular-Pro.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* regular italic */
+@font-face {
+  font-family: 'Murcurry';
+  src: url('/assets/fonts/Murcurry/murcurry-g4-Italic-Pro.otf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* bold */
+@font-face {
+  font-family: 'Murcurry';
+  src: url('/assets/fonts/Murcurry/murcurry-g4-Semibold-Pro.otf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+/* bold italic */
+@font-face {
+  font-family: 'Murcurry';
+  src: url('/assets/fonts/Murcurry/murcurry-g4-SemiItalic-Pro.otf') format('truetype');
+  font-style: italic;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}

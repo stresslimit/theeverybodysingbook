@@ -1,4 +1,0 @@
-{% assign entries = site.pages | sort: "path" %}
-{% for entry in entries %}
-  <div><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></div>
-{% endfor %}
