@@ -7,7 +7,7 @@ body {
 	background-color: white;
 	background: url(/assets/images/bg-page.jpg);
   color: var(--text-color);
-	line-height: 1.5;
+	line-height: 1.4;
 }
 body, input, button, textarea, pre {
 	font-family: 'Murcurry', serif;
@@ -46,8 +46,8 @@ img {
 .title-md,
 .title-sm,
 .title-xs {
-  text-transform: uppercase;
-  margin-bottom: 0.3em;
+  /* text-transform: uppercase; */
+  /* margin-bottom: 0.3em; */
 	line-height: 1.1;
 	font-weight: 700;
 }

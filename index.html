@@ -4,17 +4,16 @@ title: 'Everybody Sing!'
 ---
 
 
-<p><img src="{{ 'images/the-everybody-sing-book.jpg' | asset_url }}"></p>
+<p style="max-width: 800px"><img src="{{ 'images/the-everybody-sing-book.jpg' | asset_url }}"></p>
 
-<br>
-<br>
 <p id="songs"><img style="max-width:200px" src="{{ 'images/songs.png' | asset_url }}"></p>
 
 
 <div class="row valign-top">
   <div class="two-thirds">
 
-    {% for song in site.pages %}
+    {% assign songs = site.pages | sort: 'title' %}
+    {% for song in songs %}
       <div><a href="{{ song.url }}">{{ song.title }}</a></div>
     {% endfor %}
 
