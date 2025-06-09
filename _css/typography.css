@@ -56,16 +56,6 @@ img {
 .title-md { font-size: 1.4em; }
 .title-sm { font-size: 1em; }
 .title-xs { font-size: 0.9em; }
-.content {
-	.title-xl,
-	.title-lg,
-	.title-md,
-	.title-sm,
-	.title-xs {
-		margin: 1em 0 0 0;
-	}
-
-}
 
 /*
 	Small screens
